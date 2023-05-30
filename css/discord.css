@@ -8,7 +8,9 @@
 header{
     background-image: url(../img/jumbo.png);
     width: 100%;
-    height: auto;
+    min-height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .container{width: 1000px;
     height: auto;
@@ -33,7 +35,23 @@ header{
         border:0;
         background-color: white;
         border-radius: 25px;
-        margin:0.5rem 1rem;
+        margin:0.5rem 0.8rem;
         padding: 0;
     }
+    /* nav finito */
+h1, p{color: white;
+text-align: center;
+    padding: 1.5rem;}
+p{
+    padding: 0.3rem ;
+}
+.bottone-grande-bianco{
+    padding: 0.5rem 0.8rem;
+}
+.bottone-grande-nero{
+    padding: 0.5rem 0.8rem;
+    color: white;
+    background-color: rgb(41, 40, 40);
+}
+
 /* FINE HEADER */

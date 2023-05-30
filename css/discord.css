@@ -42,7 +42,7 @@ header{
 h1, p{color: white;
 text-align: center;
     padding: 1.5rem;}
-p{
+header p{
     padding: 0.3rem ;
 }
 .bottone-grande-bianco{
@@ -55,3 +55,78 @@ p{
 }
 
 /* FINE HEADER */
+
+/* INIZIO BODY  */
+.blocco-1-img{
+    width: 55%;
+}
+.blocco-2-text{width: 45%;
+    width: 200px;
+}
+.blocco-2-text p{color: black;
+text-align: left;
+padding-left:0;}
+.blocco-2-text h2{font-size: 35px;
+    text-align: left;} 
+.blocco-4-text h2{
+    text-align:center;
+    font-size:35px;
+}
+.blocco-4-text p{color: black;}
+.blocco-4-text{margin-top:70px
+}
+.blocco4{width: 100%;
+    text-align: center;
+    background-color: rgb(187, 185, 185);}
+.main-footer{margin-bottom:50px;
+    width: 400px;
+    margin:0 auto 50;
+}
+.main-footer h5{font-size: 20px;
+    text-align: center;
+    padding:1rem;
+}
+.backgroundimg{
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    /* background-position: top; */
+    background-repeat:no-repeat ;
+    width: 100%;
+}
+.bottone-azzurro{color: white;
+    background-color: rgb(116, 136, 247);
+    padding: 0.5rem 0.8rem;
+
+}
+
+/* footer  */
+/* blocco 1 */
+.contenitore-footer{width: 100%;}
+.footer-style{background-color: rgb(49, 49, 54);
+    width: 100%;
+}
+.contatti{flex-grow: 1;
+    color: white;
+}
+.contatti h2 {color: rgb(116, 136, 247);
+    font-size: 28px;
+padding: 1rem 0;
+}
+.bandiera{background-image: url(../img/ita.png);
+    height: 15px;
+background-repeat: no-repeat;
+background-size: contain;
+width: 28px;
+}
+/* blocco 2 */
+.macro-gruppi *{padding:5px;
+    flex-grow: 1;
+}
+.macro-gruppi h4{
+    color: rgb(116, 136, 247);
+}
+.macro-gruppi div{
+    color: white;
+}
+
+

@@ -56,7 +56,7 @@ header p{
 
 /* FINE HEADER */
 
-/* INIZIO BODY  */
+/* INIZIO MAIN  */
 .blocco-1-img{
     width: 55%;
 }
@@ -80,7 +80,7 @@ padding-left:0;}
     background-color: rgb(187, 185, 185);}
 .main-footer{margin-bottom:50px;
     width: 400px;
-    margin:0 auto 50;
+    margin:0 auto;
 }
 .main-footer h5{font-size: 20px;
     text-align: center;
@@ -98,7 +98,7 @@ padding-left:0;}
     padding: 0.5rem 0.8rem;
 
 }
-
+/* FINE MAIN */
 /* footer  */
 /* blocco 1 */
 .contenitore-footer{width: 100%;}
@@ -118,28 +118,39 @@ background-repeat: no-repeat;
 background-size: contain;
 width: 28px;
 }
+.socials{width: 100%;
+padding-top:1rem;}
+.socials img{flex-grow: 1;
+    height: 22px;
+    padding-right:10px;
+    color: white;
+}
+
 /* blocco 2 */
-.macro-gruppi *{padding:5px;
+.macro-gruppi {padding:5px;
     flex-grow: 1;
 }
 .macro-gruppi h4{
     color: rgb(116, 136, 247);
+    padding:1rem 0;
 }
 .macro-gruppi div a{
     color: white;
     text-decoration: none;
 }
+.macro-gruppi div{padding-bottom:1rem;}
 /* fine parte 1 footer */
+/* HR */
 .hr-colore{
     background-color: rgb(116, 136, 247);
     border: 0;
-    height: 1;}
+    height: 1px;}
 /* parte 2 footer */
 .footer-finale div{
     margin:1rem;
     width: 100%;
 }
-.footer-finale{justify-content: between;}
+.footer-finale{justify-content: space-between;}
 
 
 .align{text-align: right;}

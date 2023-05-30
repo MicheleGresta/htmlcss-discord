@@ -125,8 +125,21 @@ width: 28px;
 .macro-gruppi h4{
     color: rgb(116, 136, 247);
 }
-.macro-gruppi div{
+.macro-gruppi div a{
     color: white;
+    text-decoration: none;
 }
+/* fine parte 1 footer */
+.hr-colore{
+    background-color: rgb(116, 136, 247);
+    border: 0;
+    height: 1;}
+/* parte 2 footer */
+.footer-finale div{
+    margin:1rem;
+    width: 100%;
+}
+.footer-finale{justify-content: between;}
 
 
+.align{text-align: right;}

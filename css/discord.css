@@ -1,0 +1,39 @@
+* {padding: 0;
+    margin: 0;
+    box-sizing: border-box;}
+.flex{
+    display: flex;
+}
+/* HEADER */
+header{
+    background-image: url(../img/jumbo.png);
+    width: 100%;
+    height: auto;
+}
+.container{width: 1000px;
+    height: auto;
+    margin:0 auto;
+    padding:1rem 0;}
+
+.container div{flex-grow: 3;
+    margin: auto;}
+.container img{flex-grow: 1;}
+.container button{flex-grow: 1;}
+
+    ul{
+        list-style: none;
+    }
+    ul li a{padding:1rem;
+        text-decoration: none;
+        color: white;
+        
+    }
+    ul{justify-content: center;}
+    .bottone{
+        border:0;
+        background-color: white;
+        border-radius: 25px;
+        margin:0.5rem 1rem;
+        padding: 0;
+    }
+/* FINE HEADER */
